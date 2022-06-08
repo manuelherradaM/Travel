@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(220, 245, 245);
+}
+
+
+
+.banner{
+    
+    height: 200px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-foreign-tourism-global-tourism-background-material-image_141842.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner__text{
+    font-size: 30px;
+    font-family: 'lobster';
+    color: blue;
+    text-align: center;
+    line-height: 200px;
+}
+.navbar__sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    
+}
+.destinos{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.destinos__title{
+    margin: 0;
+}
+.galeria__title{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    margin: 0;
+}

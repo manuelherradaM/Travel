@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>shoptravel</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar__sticky">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Destinos</a>
+                       
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="banner">
+        <div class="banner__img">
+
+            <div class="banner__text">
+                <h1><b>Bienvenidos a ShopTravel</b></h1>
+            </div>
+        </div>
+    </div>
+    <div class="destinos" >
+        <h1 class="destinos__title" >
+            Mira Nuestros Destinos
+        </h1>
+    </div>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images6.alphacoders.com/299/thumb-1920-299834.jpg" alt="PERU" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>PERU</h3>
+                    <p>Machu Picchu</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://fitzroy.cl/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-15-at-13.37.43.jpeg"
+                    alt="francia" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>FRANCIA</h3>
+                    <P>PARIS</P>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.preferente.com/wp-content/uploads/2018/09/viaje-a-egipto-el-cairo-y-crucero-por-el-nilo-al-mejor-precio.jpg"
+                    alt="New York" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>EGIPTO</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <section class="row">
+        <h2 class="galeria__title" id="galeria">Mas Destinos</h2>
+  
+        <div class="card col-12 col-sm-6 col-lg-4  data-bs-toggle="tooltip data-bs-placement="top" title="VENECIA" >
+            <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/05095734/iStock-153827183.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Venecia</p>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="Reservar"   >
+                Reservar Ahora
+              </button>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-6 col-lg-4 data-bs-toggle="tooltip data-bs-placement="top" title="CUBA" >
+            <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/05100356/iStock-525352138.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Cuba</p>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="Reservar">
+                Reservar Ahora
+              </button>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-6 col-lg-4 data-bs-toggle="tooltip data-bs-placement="top" title="INDIA"  >
+            <img src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/05/10084413/tajmahal.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">India</p>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="Reservar">
+                Reservar Ahora
+              </button>
+            </div>
+          </div>
+      
+  
+      </section>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/?hl=es-la"
+                    role="button" target="blank">
+                    <img src="https://howlermagcom1227d.zapwp.com/q:intelligent/retina:true/webp:true/w:300/url:https://howlermag.com/wp-content/uploads/2020/07/pngfind.com-instagram-frame-png-2436165.png"
+                        width="30" alt="">
+                </a>
+                
+
+                <!-- facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button" role="button"
+                    target="blank"><img
+                        src="http://www.icorp.com.mx/blog/wp-content/uploads/2017/08/Logo-Facebook-png.png" width="30"
+                        alt=""></a>
+
+                <!-- twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/?lang=es" role="button" role="button"
+                    target="blank"><img
+                        src="http://www.cmonsite.fr/creer-un-site/wp-content/uploads/2013/03/twitter-CmonSite.png"
+                        width="30" alt=""></a>
+
+                <!-- google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/"
+                    role="button" role="button" target="blank"><img
+                        src="https://cdn-icons-png.flaticon.com/512/270/270014.png" width="30" alt=""></a>
+
+
+
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"></a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">AVISO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          La Pagina de Reservas Esta bajo construccion.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
+
+
+
+
